@@ -2,7 +2,7 @@ def hello_t(array)
   i = 0
   while i< array.length
     i = i + 1
-    yield[i]
+    yield(array[i])
   end
 end
  hello_t(["Tim", "Tom", "Jim"]) do |name|
